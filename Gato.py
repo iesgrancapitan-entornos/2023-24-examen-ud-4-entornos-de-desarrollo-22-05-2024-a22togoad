@@ -5,10 +5,17 @@ Clase Gato.
 
 
 class Gato:
+    """
+    Clase gato
+    """
 
     def maulla(self):
+        """
+        Maulla
+        :return: Devuelve Miau
+        """
         print("Miau")
 
 
-g = Gato();
-g.maullar();
+g = Gato()
+g.maulla()
